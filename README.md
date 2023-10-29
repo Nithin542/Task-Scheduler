@@ -6,6 +6,8 @@ In our task scheduler, users can enter their tasks and set the priority, whether
 
 
 
+
+
 ![Screenshot (18)](https://github.com/Nithin542/Task-Scheduler/assets/146950397/26154696-91c1-4ebd-bee7-7ed89bd49de2)
 
 
