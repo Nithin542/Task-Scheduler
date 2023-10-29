@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Task Scheduler</title>
+    <link rel="stylesheet" href="App.css">
+</head>
+<body>
+    <div class="App">
+        <header>
+            <h1>Task Scheduler</h1>
+        </header>
+        <main>
+            <div class="task-form">
+                <input type="text" id="task" placeholder="Enter task...">
+                <select id="priority">
+                    <option value="top">Top Priority</option>
+                    <option value="middle">Middle Priority</option>
+                    <option value="low">Less Priority</option>
+                </select>
+                <input type="date" id="deadline">
+                <button id="add-task">Add Task</button>
+            </div>
+            <h2 class="heading">Upcoming Tasks</h2>
+            <div class="task-list" id="task-list">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Task Name</th>
+                            <th>Priority</th>
+                            <th>Deadline</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody id="upcoming-tasks">
+                        <!-- Upcoming tasks will be added here -->
+                    </tbody>
+                </table>
+            </div>
+            <div class="completed-task-list">
+                <h2 class="cheading">Completed Tasks</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Task Name</th>
+                            <th>Priority</th>
+                            <th>Deadline</th>
+                        </tr>
+                    </thead>
+                    <tbody id="completed-tasks">
+                        <!-- Completed tasks will be added here -->
+                    </tbody>
+                </table>
+            </div>
+        </main>
+    </div>
+    <script src="App.js"></script>
+</body>
+</html>
